@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    /* font-family: 'Poppins', sans-serif; */
+}
+.header{
+    height: 100vh;
+    background: url(./images/bg-hero-desktop.svg) fixed no-repeat ,hsl(193, 100%, 96%);
+    transition: all 1s;
+}
+.flex-container{
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 5rem 0 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    width: 13%;
+    
+}
+.flex-container a{
+    text-decoration: none;
+    color: #222;
+    font-weight: 700;
+    background-color: #fff ;
+    padding: 1rem 6rem;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.flex-container a:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.hero-container{
+    max-width: 120rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    column-gap: 6.4rem;
+    transition: all 1s;
+}
+.hero-img img{
+    width: 100%;
+}
+.head-content{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    width: 90%;
+    line-height: 1.6;
+    margin-bottom: 2.8rem;
+}
+.p-content{
+    line-height: 1.6;
+    margin-bottom: 4rem;
+    font-size: 1.6rem;
+}
+.started{
+    text-decoration: none;
+    background-color: hsl(322, 100%, 66%);
+    padding: 1.6rem 6.4rem;
+    border-radius: 3.2rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ }
+ .started:hover {
+    box-shadow: hsl(322, 100%, 66%) 0px 5px 15px;
+ }
+ .containers{
+     display: flex;
+     flex-direction: column;
+     gap: 3.2rem;
+     padding: 11rem 0 25rem;
+     position: relative;
+ }
+ .container{
+     max-width: 120rem;
+     margin: 0 auto ;
+     background-color: #fff;
+     border-radius: 1.1rem;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     
+ }
+ .container-content{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     align-items: center;
+     column-gap: 3.2rem;
+     padding: 5rem 8rem ;
+ }
+ 
+ .illustration {
+     width: 70%;   
+     justify-self: end;
+ }
+ .illustration.start{
+     justify-self: start;
+ }
+ .container-text.end{
+     justify-self: end;
+     width: 75%;
+    
+ }
+ .head-text{
+     color: #333;
+     margin-bottom: 1.6rem;
+     font-family: 'Poppins', sans-serif;
+ }
+ .p-text{
+     line-height: 1.6;
+     color:hsl(208, 11%, 55%);
+     font-size: 1.6rem;
+     width: 90%;
+
+ }
+ .float-container{
+     max-width: 80rem;
+     margin: 0 auto;
+     text-align: center;
+     background: #fff;
+     border-radius: 1.1rem; 
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    bottom: -7%;
+    left: 29%;
+    }
+ .float-content{
+     padding: 6rem 8rem;
+     
+ }
+ .bold-p{
+     margin-bottom: 3.4rem;
+     font-family: 'Poppins', sans-serif;
+     font-size: 3rem;
+ }
+ footer{
+     background-color: hsl(192, 100%, 9%);
+ }
+ .footer-container{
+     max-width: 120rem;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     align-items: center;
+     justify-items: center;
+     padding: 20rem 0 8rem;
+ }
+ .logo-footer{
+    filter: brightness(0) invert(1);
+    width: 70%;
+ }
+ ul{
+     list-style: none;
+ }
+ .about,.Contact, ul li a{
+     text-decoration: none;
+     color: #fff;
+     font-size: 1.6rem;
+     transition: all 0.3s;
+     
+ }
+ .about,.Contact, ul li a:hover{
+     color: violet;
+ }
+ .about,.Contact, ul li{
+     margin-top: 1.2rem;
+ }
+ .adress,.phone,.mail{
+     margin: 2rem 0;
+     display: flex;
+     gap: 1rem;
+     justify-items: center;
+     color: #fff;
+ }
+ .adress-text{
+     font-size: 1.4rem;
+     width: 90%;
+     line-height: 1.6;
+ }
+ ion-icon{
+     font-size: 2.3rem;
+     color: #fff;
+ }
+ .mail,.phone{
+     font-size: 1.6rem;
+ }
+ .icons ion-icon{
+     color: #fff;
+     margin-right: 1rem;
+     border: 1px solid white;
+     padding: 1rem;
+     border-radius: 10rem;
+     text-align: center;
+     transition: all 0.4s;
+ }
+ .icons ion-icon:hover{
+     color: violet;
+     border: 1px solid violet;
+ }
+ .copyright{
+     max-width: 120rem;
+     margin: 0 auto ;
+     padding-bottom:3rem ;
+     text-align: end;
+     color: white;
+     font-size: 1.2rem;
+     
+ }
+.attribution{
+    max-width: 120rem;
+    margin: 0 auto ;
+    text-align: center;
+    font-size: 1.6rem;
+    padding-bottom: 3.2rem;
+    color: #fff;
+}
+.attribution a{
+    text-decoration: none;
+    color: goldenrod;
+}

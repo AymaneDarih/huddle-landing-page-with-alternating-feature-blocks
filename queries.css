@@ -1,0 +1,111 @@
+@media (max-width:23em){
+    html{
+        font-size: 48%;
+        overflow-x: hidden;
+    }
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .header{
+        height: 100%;
+        background: url(./images/bg-hero-mobile.svg) no-repeat fixed cover ;
+    }
+    .flex-container{
+        max-width: 40rem;
+        padding: 5rem 0 6rem;
+    }
+    .logo{
+        width: 30%;
+    }
+    .flex-container a{
+        padding: 0.5rem 3rem;
+       
+    }
+    .hero-container{
+        max-width: 30rem;
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin: 0 auto;
+        gap: 6.4rem;
+    }
+    .head-content{
+        font-size: 2.2rem;
+        margin-bottom: 1.8rem;
+        text-align: center;
+        width: 100%;
+    }
+    .hero-img img{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .p-content{
+        line-height: 1.3;
+        margin-bottom: 4rem;
+    }
+    .container{
+        max-width: 40rem;
+        margin: 0 auto;
+    }
+    .container-content{
+        grid-template-columns: 1fr;
+        gap: 4.4rem;
+        padding: 5rem 4rem;
+    }
+    .container-text{
+        text-align: center;
+    }
+    .p-text{
+        width: 100%;
+    }
+    .illustration{
+        justify-self: center;
+        grid-row: 1;
+        width: 100%;
+        
+    }
+    .illustration.start,.container-text.end{
+        justify-self: center;
+        width: 100%;
+    }
+    .float-container{
+        max-width: 38rem;
+        margin: 0 auto ;
+        bottom: -3%;
+        left: 12%;
+    }
+    .float-content{
+        padding: 4rem 3rem;
+    }
+    .bold-p{
+        font-size: 1.8rem;
+    }
+    .footer-container{
+        max-width: 38rem;
+        margin: 0 auto ;
+        grid-template-columns: 1fr;
+        padding: 17rem 0 8rem;
+    }
+    .about,.Contact, ul li {
+        justify-self: self-start;
+    }
+    .icons{
+        margin-top: 5rem;
+    }
+    .icons ion-icon{
+        font-size: 2rem;
+    }
+    .logo-footer{
+        width: 50%;
+    }
+    .copyright{
+        max-width: 37rem;
+        text-align: center;
+    }
+    .attribution{
+        max-width: 37rem;
+        line-height: 1.8;
+    }
+
+}
